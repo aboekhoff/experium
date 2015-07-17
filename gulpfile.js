@@ -18,7 +18,7 @@ gulp.task('connect', function() {
 
 gulp.task('build', function() {
     browserify({
-    entries: 'src/Game.js',
+    entries: 'src/Main.js',
     debug: true
     })
     .transform(babelify)
